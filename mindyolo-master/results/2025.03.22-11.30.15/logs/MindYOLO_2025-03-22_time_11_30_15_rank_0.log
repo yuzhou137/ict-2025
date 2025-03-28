@@ -1,0 +1,44 @@
+2025-03-22 11:30:15,198 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 11:30:15,219 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 11:30:15,306 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-22 11:30:15,490 [INFO] Dataset Cache file hash/version check success.
+2025-03-22 11:30:15,493 [INFO] Load dataset cache from [\Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-val\labels.cache.npy] success.
+2025-03-22 11:30:15,496 [INFO] Dataloader num parallel workers: [4]
+2025-03-22 11:30:15,501 [INFO] Start evaluating...
+2025-03-22 11:30:16,193 [INFO] Processing batch 1, images: 16
+2025-03-22 11:30:24,164 [INFO] Processing batch 2, images: 16
+2025-03-22 11:30:27,240 [INFO] Processing batch 3, images: 16
+2025-03-22 11:30:30,189 [INFO] Processing batch 4, images: 16
+2025-03-22 11:30:33,131 [INFO] Processing batch 5, images: 16
+2025-03-22 11:30:36,091 [INFO] Processing batch 6, images: 16
+2025-03-22 11:30:38,399 [INFO] Processing batch 7, images: 16
+2025-03-22 11:30:40,684 [INFO] Processing batch 8, images: 16
+2025-03-22 11:30:43,024 [INFO] Processing batch 9, images: 16
+2025-03-22 11:30:45,337 [INFO] Processing batch 10, images: 16
+2025-03-22 11:30:47,649 [INFO] Processing batch 11, images: 16
+2025-03-22 11:30:49,560 [INFO] Processing batch 12, images: 16
+2025-03-22 11:30:51,466 [INFO] Processing batch 13, images: 16
+2025-03-22 11:30:53,371 [INFO] Processing batch 14, images: 16
+2025-03-22 11:30:55,240 [INFO] Processing batch 15, images: 16
+2025-03-22 11:30:57,096 [INFO] Processing batch 16, images: 16
+2025-03-22 11:30:59,000 [INFO] Processing batch 17, images: 16
+2025-03-22 11:31:01,062 [INFO] Processing batch 18, images: 16
+2025-03-22 11:31:03,411 [INFO] Processing batch 19, images: 16
+2025-03-22 11:31:05,785 [INFO] Processing batch 20, images: 16
+2025-03-22 11:31:08,091 [INFO] Processing batch 21, images: 16
+2025-03-22 11:31:10,293 [INFO] Processing batch 22, images: 16
+2025-03-22 11:31:12,472 [INFO] Processing batch 23, images: 16
+2025-03-22 11:31:14,696 [INFO] Processing batch 24, images: 16
+2025-03-22 11:31:16,897 [INFO] Processing batch 25, images: 16
+2025-03-22 11:31:19,084 [INFO] Processing batch 26, images: 16
+2025-03-22 11:31:21,209 [INFO] Processing batch 27, images: 16
+2025-03-22 11:31:23,339 [INFO] Processing batch 28, images: 16
+2025-03-22 11:31:25,497 [INFO] Processing batch 29, images: 16
+2025-03-22 11:31:27,657 [INFO] Processing batch 30, images: 16
+2025-03-22 11:31:29,852 [INFO] Processing batch 31, images: 16
+2025-03-22 11:31:32,060 [INFO] Processing batch 32, images: 16
+2025-03-22 11:31:34,339 [INFO] Processing batch 33, images: 16
+2025-03-22 11:31:36,508 [INFO] Processing batch 34, images: 16
+2025-03-22 11:31:38,576 [INFO] Processing batch 35, images: 4
+2025-03-22 11:31:41,027 [INFO] Total images processed: 548 (expected: 548)
+2025-03-22 11:31:41,346 [INFO] Confusion matrix saved to results\2025.03.22-11.30.15\confusion_matrix.png

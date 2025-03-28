@@ -1,0 +1,356 @@
+task: detect
+device_target: CPU
+save_dir: ./runs\2025.03.17-19.51.04
+log_level: INFO
+is_parallel: false
+ms_mode: 0
+max_call_depth: 2000
+ms_amp_level: O0
+keep_loss_fp32: true
+anchor_base: false
+ms_loss_scaler: static
+ms_loss_scaler_value: 1024.0
+ms_jit: true
+ms_enable_graph_kernel: false
+ms_datasink: false
+overflow_still_update: false
+clip_grad: false
+clip_grad_value: 10.0
+ema: true
+weight: yolov8s.ckpt
+ema_weight: ''
+freeze: []
+epochs: 200
+per_batch_size: 16
+img_size: 640
+nbs: 64
+accumulate: 1
+auto_accumulate: false
+log_interval: 100
+single_cls: false
+sync_bn: false
+keep_checkpoint_max: 100
+run_eval: false
+conf_thres: 0.6
+iou_thres: 0.7
+conf_free: true
+rect: false
+nms_time_limit: 20.0
+recompute: false
+recompute_layers: 0
+seed: 2
+summary: true
+profiler: false
+profiler_step_num: 1
+opencv_threads_num: 0
+strict_load: false
+enable_modelarts: false
+data_url: ''
+ckpt_url: ''
+multi_data_url: ''
+pretrain_url: ''
+train_url: ''
+data_dir: /cache/data/
+ckpt_dir: /cache/pretrain_ckpt/
+optimizer: !!python/object/new:mindyolo.utils.config.Config
+  state:
+    lr_init: 0.01
+    optimizer: momentum
+    momentum: 0.937
+    nesterov: true
+    loss_scale: 1.0
+    warmup_epochs: 3
+    warmup_momentum: 0.8
+    warmup_bias_lr: 0.1
+    min_warmup_step: 1000
+    group_param: yolov8
+    gp_weight_decay: 0.0005
+    start_factor: 1.0
+    end_factor: 0.01
+    epochs: 200
+    nbs: 64
+    accumulate: 1
+    total_batch_size: 16
+  dictitems:
+    lr_init: 0.01
+    optimizer: momentum
+    momentum: 0.937
+    nesterov: true
+    loss_scale: 1.0
+    warmup_epochs: 3
+    warmup_momentum: 0.8
+    warmup_bias_lr: 0.1
+    min_warmup_step: 1000
+    group_param: yolov8
+    gp_weight_decay: 0.0005
+    start_factor: 1.0
+    end_factor: 0.01
+    epochs: 200
+    nbs: 64
+    accumulate: 1
+    total_batch_size: 16
+data: !!python/object/new:mindyolo.utils.config.Config
+  state:
+    dataset_name: VisDrone
+    train_set: /Users/22454/Desktop/project/Yolo/ultralytics-main/datasets/VisDrone/VisDrone2019-DET-train/images
+    val_set: /Users/22454/Desktop/project/Yolo/ultralytics-main/datasets/VisDrone/VisDrone2019-DET-val/images
+    test_set: /Users/22454/Desktop/project/Yolo//ultralytics-main/datasets/VisDrone/VisDrone2019-DET-test/images
+    nc: 10
+    names: &id003
+    - pedestrian
+    - people
+    - bicycle
+    - car
+    - van
+    - truck
+    - tricycle
+    - awning-tricycle
+    - bus
+    - motor
+    train_transforms: &id004 !!python/object/new:mindyolo.utils.config.Config
+      state:
+        stage_epochs: &id001
+        - 190
+        - 10
+        trans_list: &id002
+        - - func_name: mosaic
+            prob: 1.0
+          - func_name: resample_segments
+          - func_name: random_perspective
+            prob: 1.0
+            degrees: 0.0
+            translate: 0.1
+            scale: 0.5
+            shear: 0.0
+          - func_name: albumentations
+          - func_name: hsv_augment
+            prob: 1.0
+            hgain: 0.015
+            sgain: 0.7
+            vgain: 0.4
+          - func_name: fliplr
+            prob: 0.5
+          - func_name: label_norm
+            xyxy2xywh_: true
+          - func_name: label_pad
+            padding_size: 160
+            padding_value: -1
+          - func_name: image_norm
+            scale: 255.0
+          - func_name: image_transpose
+            bgr2rgb: true
+            hwc2chw: true
+        - - func_name: letterbox
+            scaleup: true
+          - func_name: resample_segments
+          - func_name: random_perspective
+            prob: 1.0
+            degrees: 0.0
+            translate: 0.1
+            scale: 0.5
+            shear: 0.0
+          - func_name: albumentations
+          - func_name: hsv_augment
+            prob: 1.0
+            hgain: 0.015
+            sgain: 0.7
+            vgain: 0.4
+          - func_name: fliplr
+            prob: 0.5
+          - func_name: label_norm
+            xyxy2xywh_: true
+          - func_name: label_pad
+            padding_size: 160
+            padding_value: -1
+          - func_name: image_norm
+            scale: 255.0
+          - func_name: image_transpose
+            bgr2rgb: true
+            hwc2chw: true
+      dictitems:
+        stage_epochs: *id001
+        trans_list: *id002
+    test_transforms: &id005
+    - func_name: letterbox
+      scaleup: false
+      only_image: true
+    - func_name: image_norm
+      scale: 255.0
+    - func_name: image_transpose
+      bgr2rgb: true
+      hwc2chw: true
+    num_parallel_workers: 4
+  dictitems:
+    dataset_name: VisDrone
+    train_set: /Users/22454/Desktop/project/Yolo/ultralytics-main/datasets/VisDrone/VisDrone2019-DET-train/images
+    val_set: /Users/22454/Desktop/project/Yolo/ultralytics-main/datasets/VisDrone/VisDrone2019-DET-val/images
+    test_set: /Users/22454/Desktop/project/Yolo//ultralytics-main/datasets/VisDrone/VisDrone2019-DET-test/images
+    nc: 10
+    names: *id003
+    train_transforms: *id004
+    test_transforms: *id005
+    num_parallel_workers: 4
+loss: !!python/object/new:mindyolo.utils.config.Config
+  state:
+    name: YOLOv8Loss
+    box: 7.5
+    cls: 0.5
+    dfl: 1.5
+    reg_max: 16
+  dictitems:
+    name: YOLOv8Loss
+    box: 7.5
+    cls: 0.5
+    dfl: 1.5
+    reg_max: 16
+network: !!python/object/new:mindyolo.utils.config.Config
+  state:
+    model_name: yolov8
+    nc: 10
+    reg_max: 16
+    stride: &id006
+    - 8
+    - 16
+    - 32
+    backbone: &id007
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 64
+        - 3
+        - 2
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 128
+        - 3
+        - 2
+    - - -1
+      - 3
+      - C2f
+      - - 128
+        - true
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 256
+        - 3
+        - 2
+    - - -1
+      - 6
+      - C2f
+      - - 256
+        - true
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 512
+        - 3
+        - 2
+    - - -1
+      - 6
+      - C2f
+      - - 512
+        - true
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 1024
+        - 3
+        - 2
+    - - -1
+      - 3
+      - C2f
+      - - 1024
+        - true
+    - - -1
+      - 1
+      - SPPF
+      - - 1024
+        - 5
+    head: &id008
+    - - -1
+      - 1
+      - Upsample
+      - - None
+        - 2
+        - nearest
+    - - - -1
+        - 6
+      - 1
+      - Concat
+      - - 1
+    - - -1
+      - 3
+      - C2f
+      - - 512
+    - - -1
+      - 1
+      - Upsample
+      - - None
+        - 2
+        - nearest
+    - - - -1
+        - 4
+      - 1
+      - Concat
+      - - 1
+    - - -1
+      - 3
+      - C2f
+      - - 256
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 256
+        - 3
+        - 2
+    - - - -1
+        - 12
+      - 1
+      - Concat
+      - - 1
+    - - -1
+      - 3
+      - C2f
+      - - 512
+    - - -1
+      - 1
+      - ConvNormAct
+      - - 512
+        - 3
+        - 2
+    - - - -1
+        - 9
+      - 1
+      - Concat
+      - - 1
+    - - -1
+      - 3
+      - C2f
+      - - 1024
+    - - - 15
+        - 18
+        - 21
+      - 1
+      - YOLOv8Head
+      - - nc
+        - reg_max
+        - stride
+    depth_multiple: 0.33
+    width_multiple: 0.5
+    max_channels: 1024
+  dictitems:
+    model_name: yolov8
+    nc: 10
+    reg_max: 16
+    stride: *id006
+    backbone: *id007
+    head: *id008
+    depth_multiple: 0.33
+    width_multiple: 0.5
+    max_channels: 1024
+config: ./configs/yolov8/yolov8s.yaml
+rank: 0
+rank_size: 1
+total_batch_size: 16

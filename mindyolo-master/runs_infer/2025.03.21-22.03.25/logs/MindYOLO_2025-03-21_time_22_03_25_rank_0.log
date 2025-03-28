@@ -1,0 +1,8 @@
+2025-03-21 22:03:25,369 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-21 22:03:25,383 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-21 22:03:25,480 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-21 22:03:25,622 [INFO] Load checkpoint from [yolov8s141.ckpt] success.
+2025-03-21 22:03:27,709 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:03:27,710 [INFO] Speed: 2057.1/2.2/2059.3 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:03:27,710 [INFO] Detect a image success.
+2025-03-21 22:03:27,723 [INFO] Infer completed.

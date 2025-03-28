@@ -1,0 +1,36 @@
+task: detect
+device_target: CPU
+ms_mode: 0
+ms_amp_level: O0
+video_path: '0'
+output_video: runs_infer/output.avi
+ms_enable_graph_kernel: false
+precision_mode: null
+weight: ../yolov8s141.ckpt
+img_size: 640
+single_cls: false
+nms_time_limit: 60.0
+conf_thres: 0.25
+iou_thres: 0.65
+conf_free: false
+seed: 2
+log_level: INFO
+save_dir: ./runs_infer\2025.03.24-20.38.41
+image_path: null
+save_result: true
+data: !!python/object:argparse.Namespace
+  nc: 10
+  names:
+  - pedestrian
+  - people
+  - bicycle
+  - car
+  - van
+  - truck
+  - tricycle
+  - awning-tricycle
+  - bus
+  - motor
+  dataset_name: VisDrone
+rank: 0
+rank_size: 1

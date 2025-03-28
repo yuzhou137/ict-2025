@@ -1,0 +1,4 @@
+2025-03-22 12:37:50,785 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 12:37:50,798 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 12:37:50,892 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-22 12:37:51,032 [INFO] Load checkpoint from [yolov8s141.ckpt] success.

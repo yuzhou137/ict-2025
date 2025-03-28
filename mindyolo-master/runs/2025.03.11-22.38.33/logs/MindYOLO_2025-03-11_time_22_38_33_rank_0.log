@@ -1,0 +1,142 @@
+2025-03-11 22:38:33,303 [INFO] 
+2025-03-11 22:38:33,308 [INFO] Please check the above information for the configurations
+2025-03-11 22:38:33,408 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-11 22:38:33,421 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-11 22:38:33,513 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-11 22:38:33,729 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-11 22:38:33,742 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-11 22:38:33,835 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-11 22:38:33,987 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.0.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-11 22:38:33,987 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.0.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-11 22:38:33,987 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.1.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-11 22:38:33,989 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.1.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-11 22:38:33,989 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.2.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-11 22:38:33,989 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.2.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-11 22:38:33,998 [INFO] Pretrain model load from "yolov8s.ckpt" success.
+2025-03-11 22:38:34,403 [INFO] ema_weight not exist, default pretrain weight is currently used.
+2025-03-11 22:38:36,428 [INFO] Dataset Cache file hash/version check success.
+2025-03-11 22:38:36,429 [INFO] Load dataset cache from [\Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-train\labels.cache.npy] success.
+2025-03-11 22:38:36,463 [INFO] Dataloader num parallel workers: [4]
+2025-03-11 22:38:36,838 [INFO] Dataset Cache file hash/version check success.
+2025-03-11 22:38:36,838 [INFO] Load dataset cache from [\Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-train\labels.cache.npy] success.
+2025-03-11 22:38:36,868 [INFO] Dataloader num parallel workers: [4]
+2025-03-11 22:38:37,002 [INFO] 
+2025-03-11 22:38:37,012 [INFO] got 1 active callback as follows:
+2025-03-11 22:38:37,012 [INFO] SummaryCallback()
+2025-03-11 22:38:37,012 [WARNING] The first epoch will be compiled for the graph, which may take a long time; You can come back later :).
+2025-03-11 22:54:58,670 [INFO] Epoch 1/200, Step 100/404, imgsize (640, 640), loss: 3.0507, lbox: 1.6861, lcls: 0.3274, dfl: 1.0371, cur_lr: 0.09257426112890244
+2025-03-11 22:54:58,884 [INFO] Epoch 1/200, Step 100/404, step time: 9818.71 ms
+2025-03-11 23:13:01,613 [INFO] Epoch 1/200, Step 200/404, imgsize (640, 640), loss: 2.9715, lbox: 1.6702, lcls: 0.2497, dfl: 1.0515, cur_lr: 0.08514851331710815
+2025-03-11 23:13:01,640 [INFO] Epoch 1/200, Step 200/404, step time: 10827.52 ms
+2025-03-11 23:31:09,236 [INFO] Epoch 1/200, Step 300/404, imgsize (640, 640), loss: 2.8165, lbox: 1.5957, lcls: 0.2089, dfl: 1.0120, cur_lr: 0.07772277295589447
+2025-03-11 23:31:09,275 [INFO] Epoch 1/200, Step 300/404, step time: 10876.35 ms
+2025-03-11 23:48:59,823 [INFO] Epoch 1/200, Step 400/404, imgsize (640, 640), loss: 2.8386, lbox: 1.6384, lcls: 0.1959, dfl: 1.0043, cur_lr: 0.07029703259468079
+2025-03-11 23:48:59,849 [INFO] Epoch 1/200, Step 400/404, step time: 10705.70 ms
+2025-03-11 23:49:49,701 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-1_404.ckpt
+2025-03-11 23:49:49,705 [INFO] Epoch 1/200, epoch time: 71.21 min.
+2025-03-12 00:07:49,682 [INFO] Epoch 2/200, Step 100/404, imgsize (640, 640), loss: 2.8266, lbox: 1.6039, lcls: 0.2012, dfl: 1.0215, cur_lr: 0.06255367398262024
+2025-03-12 00:07:49,728 [INFO] Epoch 2/200, Step 100/404, step time: 10800.23 ms
+2025-03-12 00:24:08,270 [INFO] Epoch 2/200, Step 200/404, imgsize (640, 640), loss: 2.7904, lbox: 1.6238, lcls: 0.1866, dfl: 0.9800, cur_lr: 0.05512384697794914
+2025-03-12 00:24:08,312 [INFO] Epoch 2/200, Step 200/404, step time: 9785.75 ms
+2025-03-12 00:41:35,320 [INFO] Epoch 2/200, Step 300/404, imgsize (640, 640), loss: 2.6997, lbox: 1.5420, lcls: 0.1799, dfl: 0.9778, cur_lr: 0.047694019973278046
+2025-03-12 00:41:35,343 [INFO] Epoch 2/200, Step 300/404, step time: 10470.26 ms
+2025-03-12 00:58:24,249 [INFO] Epoch 2/200, Step 400/404, imgsize (640, 640), loss: 2.7868, lbox: 1.6176, lcls: 0.1771, dfl: 0.9921, cur_lr: 0.04026419296860695
+2025-03-12 00:58:24,279 [INFO] Epoch 2/200, Step 400/404, step time: 10089.36 ms
+2025-03-12 00:59:14,709 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-2_404.ckpt
+2025-03-12 00:59:14,717 [INFO] Epoch 2/200, epoch time: 69.42 min.
+2025-03-12 01:17:07,691 [INFO] Epoch 3/200, Step 100/404, imgsize (640, 640), loss: 2.5650, lbox: 1.4772, lcls: 0.1632, dfl: 0.9246, cur_lr: 0.03250008821487427
+2025-03-12 01:17:07,723 [INFO] Epoch 3/200, Step 100/404, step time: 10730.05 ms
+2025-03-12 01:34:13,728 [INFO] Epoch 3/200, Step 200/404, imgsize (640, 640), loss: 2.4214, lbox: 1.3542, lcls: 0.1515, dfl: 0.9157, cur_lr: 0.025066178292036057
+2025-03-12 01:34:13,746 [INFO] Epoch 3/200, Step 200/404, step time: 10260.23 ms
+2025-03-12 01:51:49,284 [INFO] Epoch 3/200, Step 300/404, imgsize (640, 640), loss: 2.6016, lbox: 1.5059, lcls: 0.1555, dfl: 0.9402, cur_lr: 0.017632266506552696
+2025-03-12 01:51:49,316 [INFO] Epoch 3/200, Step 300/404, step time: 10555.70 ms
+2025-03-12 02:10:12,802 [INFO] Epoch 3/200, Step 400/404, imgsize (640, 640), loss: 2.6699, lbox: 1.5504, lcls: 0.1702, dfl: 0.9493, cur_lr: 0.010198356583714485
+2025-03-12 02:10:12,836 [INFO] Epoch 3/200, Step 400/404, step time: 11035.14 ms
+2025-03-12 02:10:54,220 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-3_404.ckpt
+2025-03-12 02:10:54,226 [INFO] Epoch 3/200, epoch time: 71.66 min.
+2025-03-12 02:28:26,907 [INFO] Epoch 4/200, Step 100/404, imgsize (640, 640), loss: 2.6619, lbox: 1.5016, lcls: 0.1755, dfl: 0.9848, cur_lr: 0.009851500391960144
+2025-03-12 02:28:26,937 [INFO] Epoch 4/200, Step 100/404, step time: 10527.10 ms
+2025-03-12 02:45:48,544 [INFO] Epoch 4/200, Step 200/404, imgsize (640, 640), loss: 2.5181, lbox: 1.4205, lcls: 0.1555, dfl: 0.9421, cur_lr: 0.009851500391960144
+2025-03-12 02:45:48,564 [INFO] Epoch 4/200, Step 200/404, step time: 10416.27 ms
+2025-03-12 03:04:22,124 [INFO] Epoch 4/200, Step 300/404, imgsize (640, 640), loss: 2.4605, lbox: 1.3821, lcls: 0.1466, dfl: 0.9317, cur_lr: 0.009851500391960144
+2025-03-12 03:04:22,143 [INFO] Epoch 4/200, Step 300/404, step time: 11135.79 ms
+2025-03-12 03:21:29,251 [INFO] Epoch 4/200, Step 400/404, imgsize (640, 640), loss: 2.5127, lbox: 1.4111, lcls: 0.1505, dfl: 0.9511, cur_lr: 0.009851500391960144
+2025-03-12 03:21:29,277 [INFO] Epoch 4/200, Step 400/404, step time: 10271.34 ms
+2025-03-12 03:22:22,186 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-4_404.ckpt
+2025-03-12 03:22:22,193 [INFO] Epoch 4/200, epoch time: 71.47 min.
+2025-03-12 03:39:29,782 [INFO] Epoch 5/200, Step 100/404, imgsize (640, 640), loss: 2.5121, lbox: 1.4168, lcls: 0.1568, dfl: 0.9386, cur_lr: 0.009801999665796757
+2025-03-12 03:39:29,820 [INFO] Epoch 5/200, Step 100/404, step time: 10276.26 ms
+2025-03-12 03:57:33,561 [INFO] Epoch 5/200, Step 200/404, imgsize (640, 640), loss: 2.4386, lbox: 1.3678, lcls: 0.1452, dfl: 0.9256, cur_lr: 0.009801999665796757
+2025-03-12 03:57:33,617 [INFO] Epoch 5/200, Step 200/404, step time: 10837.90 ms
+2025-03-12 04:14:57,001 [INFO] Epoch 5/200, Step 300/404, imgsize (640, 640), loss: 2.6089, lbox: 1.4794, lcls: 0.1685, dfl: 0.9610, cur_lr: 0.009801999665796757
+2025-03-12 04:14:57,030 [INFO] Epoch 5/200, Step 300/404, step time: 10434.13 ms
+2025-03-12 04:32:01,175 [INFO] Epoch 5/200, Step 400/404, imgsize (640, 640), loss: 2.3136, lbox: 1.2611, lcls: 0.1362, dfl: 0.9163, cur_lr: 0.009801999665796757
+2025-03-12 04:32:01,204 [INFO] Epoch 5/200, Step 400/404, step time: 10241.73 ms
+2025-03-12 04:32:57,468 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-5_404.ckpt
+2025-03-12 04:32:57,480 [INFO] Epoch 5/200, epoch time: 70.59 min.
+2025-03-12 04:50:15,580 [INFO] Epoch 6/200, Step 100/404, imgsize (640, 640), loss: 2.5726, lbox: 1.4639, lcls: 0.1704, dfl: 0.9383, cur_lr: 0.009752499870955944
+2025-03-12 04:50:15,605 [INFO] Epoch 6/200, Step 100/404, step time: 10381.24 ms
+2025-03-12 05:06:57,224 [INFO] Epoch 6/200, Step 200/404, imgsize (640, 640), loss: 2.5831, lbox: 1.4739, lcls: 0.1725, dfl: 0.9367, cur_lr: 0.009752499870955944
+2025-03-12 05:06:57,247 [INFO] Epoch 6/200, Step 200/404, step time: 10016.38 ms
+2025-03-12 05:24:16,717 [INFO] Epoch 6/200, Step 300/404, imgsize (640, 640), loss: 2.3209, lbox: 1.2653, lcls: 0.1488, dfl: 0.9067, cur_lr: 0.009752499870955944
+2025-03-12 05:24:16,744 [INFO] Epoch 6/200, Step 300/404, step time: 10394.97 ms
+2025-03-12 05:42:35,855 [INFO] Epoch 6/200, Step 400/404, imgsize (640, 640), loss: 2.6338, lbox: 1.5618, lcls: 0.1439, dfl: 0.9281, cur_lr: 0.009752499870955944
+2025-03-12 05:42:35,878 [INFO] Epoch 6/200, Step 400/404, step time: 10991.32 ms
+2025-03-12 05:43:33,365 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-6_404.ckpt
+2025-03-12 05:43:33,380 [INFO] Epoch 6/200, epoch time: 70.60 min.
+2025-03-12 06:01:14,840 [INFO] Epoch 7/200, Step 100/404, imgsize (640, 640), loss: 2.7541, lbox: 1.6227, lcls: 0.1709, dfl: 0.9605, cur_lr: 0.009703000076115131
+2025-03-12 06:01:14,865 [INFO] Epoch 7/200, Step 100/404, step time: 10614.83 ms
+2025-03-12 06:18:37,611 [INFO] Epoch 7/200, Step 200/404, imgsize (640, 640), loss: 2.4590, lbox: 1.3614, lcls: 0.1475, dfl: 0.9501, cur_lr: 0.009703000076115131
+2025-03-12 06:18:37,635 [INFO] Epoch 7/200, Step 200/404, step time: 10427.66 ms
+2025-03-12 06:35:07,801 [INFO] Epoch 7/200, Step 300/404, imgsize (640, 640), loss: 2.3695, lbox: 1.2943, lcls: 0.1396, dfl: 0.9356, cur_lr: 0.009703000076115131
+2025-03-12 06:35:07,827 [INFO] Epoch 7/200, Step 300/404, step time: 9901.92 ms
+2025-03-12 06:51:27,579 [INFO] Epoch 7/200, Step 400/404, imgsize (640, 640), loss: 2.5534, lbox: 1.4646, lcls: 0.1515, dfl: 0.9373, cur_lr: 0.009703000076115131
+2025-03-12 06:51:27,600 [INFO] Epoch 7/200, Step 400/404, step time: 9797.69 ms
+2025-03-12 06:52:11,579 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-7_404.ckpt
+2025-03-12 06:52:11,590 [INFO] Epoch 7/200, epoch time: 68.64 min.
+2025-03-12 07:11:00,917 [INFO] Epoch 8/200, Step 100/404, imgsize (640, 640), loss: 2.5030, lbox: 1.4191, lcls: 0.1499, dfl: 0.9341, cur_lr: 0.009653500281274319
+2025-03-12 07:11:00,971 [INFO] Epoch 8/200, Step 100/404, step time: 11293.81 ms
+2025-03-12 07:28:33,900 [INFO] Epoch 8/200, Step 200/404, imgsize (640, 640), loss: 2.7530, lbox: 1.6095, lcls: 0.1682, dfl: 0.9753, cur_lr: 0.009653500281274319
+2025-03-12 07:28:33,927 [INFO] Epoch 8/200, Step 200/404, step time: 10529.56 ms
+2025-03-12 07:45:59,846 [INFO] Epoch 8/200, Step 300/404, imgsize (640, 640), loss: 2.4853, lbox: 1.4439, lcls: 0.1409, dfl: 0.9005, cur_lr: 0.009653500281274319
+2025-03-12 07:45:59,872 [INFO] Epoch 8/200, Step 300/404, step time: 10459.45 ms
+2025-03-12 08:03:10,334 [INFO] Epoch 8/200, Step 400/404, imgsize (640, 640), loss: 2.2823, lbox: 1.2206, lcls: 0.1415, dfl: 0.9202, cur_lr: 0.009653500281274319
+2025-03-12 08:03:10,357 [INFO] Epoch 8/200, Step 400/404, step time: 10304.85 ms
+2025-03-12 08:04:08,410 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-8_404.ckpt
+2025-03-12 08:04:08,415 [INFO] Epoch 8/200, epoch time: 71.95 min.
+2025-03-12 08:21:35,620 [INFO] Epoch 9/200, Step 100/404, imgsize (640, 640), loss: 2.6165, lbox: 1.5012, lcls: 0.1527, dfl: 0.9627, cur_lr: 0.009603999555110931
+2025-03-12 08:21:35,656 [INFO] Epoch 9/200, Step 100/404, step time: 10472.41 ms
+2025-03-12 08:39:59,945 [INFO] Epoch 9/200, Step 200/404, imgsize (640, 640), loss: 2.5096, lbox: 1.4255, lcls: 0.1534, dfl: 0.9307, cur_lr: 0.009603999555110931
+2025-03-12 08:39:59,984 [INFO] Epoch 9/200, Step 200/404, step time: 11043.26 ms
+2025-03-12 08:56:46,860 [INFO] Epoch 9/200, Step 300/404, imgsize (640, 640), loss: 2.5192, lbox: 1.4553, lcls: 0.1457, dfl: 0.9183, cur_lr: 0.009603999555110931
+2025-03-12 08:56:46,878 [INFO] Epoch 9/200, Step 300/404, step time: 10068.93 ms
+2025-03-12 09:14:51,053 [INFO] Epoch 9/200, Step 400/404, imgsize (640, 640), loss: 2.5019, lbox: 1.4166, lcls: 0.1435, dfl: 0.9418, cur_lr: 0.009603999555110931
+2025-03-12 09:14:51,072 [INFO] Epoch 9/200, Step 400/404, step time: 10841.93 ms
+2025-03-12 09:15:47,502 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-9_404.ckpt
+2025-03-12 09:15:47,504 [INFO] Epoch 9/200, epoch time: 71.65 min.
+2025-03-12 09:33:14,191 [INFO] Epoch 10/200, Step 100/404, imgsize (640, 640), loss: 2.4084, lbox: 1.3443, lcls: 0.1376, dfl: 0.9265, cur_lr: 0.009554499760270119
+2025-03-12 09:33:14,218 [INFO] Epoch 10/200, Step 100/404, step time: 10467.13 ms
+2025-03-12 09:51:38,140 [INFO] Epoch 10/200, Step 200/404, imgsize (640, 640), loss: 2.4687, lbox: 1.4004, lcls: 0.1406, dfl: 0.9277, cur_lr: 0.009554499760270119
+2025-03-12 09:51:38,166 [INFO] Epoch 10/200, Step 200/404, step time: 11039.48 ms
+2025-03-12 10:09:45,489 [INFO] Epoch 10/200, Step 300/404, imgsize (640, 640), loss: 2.6015, lbox: 1.4971, lcls: 0.1512, dfl: 0.9532, cur_lr: 0.009554499760270119
+2025-03-12 10:09:45,523 [INFO] Epoch 10/200, Step 300/404, step time: 10873.56 ms
+2025-03-12 10:28:47,971 [INFO] Epoch 10/200, Step 400/404, imgsize (640, 640), loss: 2.2933, lbox: 1.2420, lcls: 0.1363, dfl: 0.9150, cur_lr: 0.009554499760270119
+2025-03-12 10:28:48,008 [INFO] Epoch 10/200, Step 400/404, step time: 11424.78 ms
+2025-03-12 10:29:49,296 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-10_404.ckpt
+2025-03-12 10:29:49,300 [INFO] Epoch 10/200, epoch time: 74.03 min.
+2025-03-12 10:48:14,817 [INFO] Epoch 11/200, Step 100/404, imgsize (640, 640), loss: 2.4450, lbox: 1.3872, lcls: 0.1494, dfl: 0.9084, cur_lr: 0.009504999965429306
+2025-03-12 10:48:14,854 [INFO] Epoch 11/200, Step 100/404, step time: 11055.53 ms
+2025-03-12 11:06:50,308 [INFO] Epoch 11/200, Step 200/404, imgsize (640, 640), loss: 2.4161, lbox: 1.3328, lcls: 0.1416, dfl: 0.9417, cur_lr: 0.009504999965429306
+2025-03-12 11:06:50,332 [INFO] Epoch 11/200, Step 200/404, step time: 11154.78 ms
+2025-03-12 11:25:25,329 [INFO] Epoch 11/200, Step 300/404, imgsize (640, 640), loss: 2.3254, lbox: 1.2847, lcls: 0.1249, dfl: 0.9158, cur_lr: 0.009504999965429306
+2025-03-12 11:25:25,354 [INFO] Epoch 11/200, Step 300/404, step time: 11150.16 ms
+2025-03-12 11:43:05,250 [INFO] Epoch 11/200, Step 400/404, imgsize (640, 640), loss: 2.3147, lbox: 1.2703, lcls: 0.1237, dfl: 0.9206, cur_lr: 0.009504999965429306
+2025-03-12 11:43:05,272 [INFO] Epoch 11/200, Step 400/404, step time: 10599.19 ms
+2025-03-12 11:43:37,185 [INFO] Saving model to ./runs\2025.03.11-22.38.33\weights\yolov8s-11_404.ckpt
+2025-03-12 11:43:37,194 [INFO] Epoch 11/200, epoch time: 73.80 min.
+2025-03-12 12:01:35,631 [INFO] Epoch 12/200, Step 100/404, imgsize (640, 640), loss: 2.3047, lbox: 1.2606, lcls: 0.1372, dfl: 0.9069, cur_lr: 0.009455500170588493
+2025-03-12 12:01:35,664 [INFO] Epoch 12/200, Step 100/404, step time: 10784.68 ms
+2025-03-12 12:19:27,046 [INFO] Epoch 12/200, Step 200/404, imgsize (640, 640), loss: 2.2751, lbox: 1.2412, lcls: 0.1205, dfl: 0.9134, cur_lr: 0.009455500170588493
+2025-03-12 12:19:27,075 [INFO] Epoch 12/200, Step 200/404, step time: 10714.06 ms
+2025-03-12 12:37:17,398 [INFO] Epoch 12/200, Step 300/404, imgsize (640, 640), loss: 2.3180, lbox: 1.2756, lcls: 0.1384, dfl: 0.9040, cur_lr: 0.009455500170588493
+2025-03-12 12:37:17,450 [INFO] Epoch 12/200, Step 300/404, step time: 10703.70 ms

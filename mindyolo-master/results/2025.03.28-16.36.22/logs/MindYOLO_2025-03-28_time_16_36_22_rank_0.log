@@ -1,0 +1,105 @@
+2025-03-28 16:36:22,288 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-28 16:36:22,302 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-28 16:36:22,398 [INFO] number of network params, total: 11.186595M, trainable: 11.166544M
+2025-03-28 16:36:22,540 [INFO] Dataset Cache file hash/version check success.
+2025-03-28 16:36:22,541 [INFO] Load dataset cache from [G:\dataset\coco128\labels\train2017.cache.npy] success.
+2025-03-28 16:36:22,544 [INFO] Dataloader num parallel workers: [4]
+2025-03-28 16:36:22,551 [INFO] Start evaluating...
+2025-03-28 16:36:26,046 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:26,046 [INFO] Speed: 2576.8/1.1/2577.9 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:26,046 [INFO] Detect a image success.
+2025-03-28 16:36:26,334 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:26,335 [INFO] Speed: 278.6/1.0/279.7 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:26,335 [INFO] Detect a image success.
+2025-03-28 16:36:26,642 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:26,642 [INFO] Speed: 297.6/1.2/298.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:26,643 [INFO] Detect a image success.
+2025-03-28 16:36:26,938 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:26,938 [INFO] Speed: 287.1/0.0/287.1 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:26,938 [INFO] Detect a image success.
+2025-03-28 16:36:27,256 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:27,256 [INFO] Speed: 309.0/1.2/310.2 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:27,256 [INFO] Detect a image success.
+2025-03-28 16:36:27,489 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:27,489 [INFO] Speed: 224.3/1.1/225.3 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:27,489 [INFO] Detect a image success.
+2025-03-28 16:36:27,735 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:27,736 [INFO] Speed: 235.5/1.1/236.6 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:27,736 [INFO] Detect a image success.
+2025-03-28 16:36:27,980 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:27,980 [INFO] Speed: 234.5/1.3/235.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:27,981 [INFO] Detect a image success.
+2025-03-28 16:36:28,213 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:28,213 [INFO] Speed: 222.3/1.1/223.4 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:28,213 [INFO] Detect a image success.
+2025-03-28 16:36:28,454 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:28,455 [INFO] Speed: 232.3/1.2/233.5 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:28,455 [INFO] Detect a image success.
+2025-03-28 16:36:28,637 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:28,643 [INFO] Speed: 172.8/1.2/174.0 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:28,643 [INFO] Detect a image success.
+2025-03-28 16:36:28,820 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:28,820 [INFO] Speed: 167.5/1.2/168.6 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:28,820 [INFO] Detect a image success.
+2025-03-28 16:36:29,011 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,011 [INFO] Speed: 181.0/1.1/182.1 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,011 [INFO] Detect a image success.
+2025-03-28 16:36:29,183 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,183 [INFO] Speed: 162.2/1.2/163.3 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,184 [INFO] Detect a image success.
+2025-03-28 16:36:29,357 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,358 [INFO] Speed: 163.5/1.2/164.7 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,358 [INFO] Detect a image success.
+2025-03-28 16:36:29,545 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,545 [INFO] Speed: 177.3/1.1/178.4 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,545 [INFO] Detect a image success.
+2025-03-28 16:36:29,546 [WARNING] No valid predictions in batch 1
+2025-03-28 16:36:29,750 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,751 [INFO] Speed: 164.0/1.1/165.2 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,751 [INFO] Detect a image success.
+2025-03-28 16:36:29,923 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:29,923 [INFO] Speed: 162.8/1.1/163.9 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:29,924 [INFO] Detect a image success.
+2025-03-28 16:36:30,093 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,093 [INFO] Speed: 160.6/1.2/161.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,093 [INFO] Detect a image success.
+2025-03-28 16:36:30,270 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,270 [INFO] Speed: 167.1/1.1/168.1 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,270 [INFO] Detect a image success.
+2025-03-28 16:36:30,438 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,438 [INFO] Speed: 158.5/1.1/159.6 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,438 [INFO] Detect a image success.
+2025-03-28 16:36:30,603 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,603 [INFO] Speed: 155.7/1.1/156.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,603 [INFO] Detect a image success.
+2025-03-28 16:36:30,759 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,760 [INFO] Speed: 147.4/1.1/148.5 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,760 [INFO] Detect a image success.
+2025-03-28 16:36:30,921 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:30,922 [INFO] Speed: 152.4/1.1/153.4 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:30,922 [INFO] Detect a image success.
+2025-03-28 16:36:31,082 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,083 [INFO] Speed: 150.7/1.1/151.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,083 [INFO] Detect a image success.
+2025-03-28 16:36:31,250 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,251 [INFO] Speed: 156.8/1.1/157.9 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,251 [INFO] Detect a image success.
+2025-03-28 16:36:31,418 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,418 [INFO] Speed: 158.1/1.0/159.2 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,418 [INFO] Detect a image success.
+2025-03-28 16:36:31,579 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,580 [INFO] Speed: 150.8/1.1/151.9 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,580 [INFO] Detect a image success.
+2025-03-28 16:36:31,750 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,751 [INFO] Speed: 160.1/1.1/161.1 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,751 [INFO] Detect a image success.
+2025-03-28 16:36:31,909 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:31,910 [INFO] Speed: 148.7/1.1/149.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:31,910 [INFO] Detect a image success.
+2025-03-28 16:36:32,084 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:32,084 [INFO] Speed: 164.0/1.1/165.1 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:32,085 [INFO] Detect a image success.
+2025-03-28 16:36:32,247 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-28 16:36:32,247 [INFO] Speed: 152.9/2.1/155.0 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-28 16:36:32,247 [INFO] Detect a image success.
+2025-03-28 16:36:32,249 [WARNING] No valid predictions in batch 2

@@ -1,0 +1,20 @@
+2025-03-21 22:46:27,606 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-21 22:46:27,619 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-21 22:46:27,716 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-21 22:46:27,865 [INFO] Load checkpoint from [yolov8s141.ckpt] success.
+2025-03-21 22:46:31,765 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:46:31,766 [INFO] Speed: 1898.9/1.4/1900.3 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:46:31,766 [INFO] Detect a image success.
+2025-03-21 22:46:32,149 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:46:32,149 [INFO] Speed: 173.6/1.4/175.0 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:46:32,150 [INFO] Detect a image success.
+2025-03-21 22:46:32,387 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:46:32,387 [INFO] Speed: 212.9/1.6/214.5 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:46:32,387 [INFO] Detect a image success.
+2025-03-21 22:46:32,615 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:46:32,616 [INFO] Speed: 196.9/1.4/198.3 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:46:32,616 [INFO] Detect a image success.
+2025-03-21 22:46:32,930 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-21 22:46:32,932 [INFO] Speed: 278.7/1.2/279.8 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-21 22:46:32,932 [INFO] Detect a image success.
+2025-03-21 22:46:33,286 [INFO] 视频处理完成，结果已保存至 output.avi

@@ -1,0 +1,3 @@
+2025-03-27 16:47:58,740 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-27 16:47:58,752 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-27 16:47:58,847 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M

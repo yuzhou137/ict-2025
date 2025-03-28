@@ -1,0 +1,8 @@
+2025-03-24 20:38:46,447 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-24 20:38:46,462 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-24 20:38:46,562 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-24 20:38:46,734 [INFO] Load checkpoint from [yolov8s141.ckpt] success.
+2025-03-24 20:38:50,577 [INFO] Predict result is: {'category_id': [], 'bbox': [], 'score': []}
+2025-03-24 20:38:50,577 [INFO] Speed: 1902.0/1.4/1903.4 ms inference/NMS/total per 640x640 image at batch-size 1;
+2025-03-24 20:38:50,578 [INFO] Detect a image success.
+2025-03-24 20:38:51,052 [INFO] 视频已保存至: C:\Users\22454\Desktop\project\deep_learning\mindyolo-master\mindyolo-master\runs_infer\2025.03.24-20.38.46\output.avi

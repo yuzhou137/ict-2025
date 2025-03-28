@@ -1,0 +1,7 @@
+2025-03-28 16:34:49,881 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-28 16:34:49,894 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-28 16:34:49,985 [INFO] number of network params, total: 11.186595M, trainable: 11.166544M
+2025-03-28 16:34:50,127 [INFO] Dataset Cache file hash/version check success.
+2025-03-28 16:34:50,128 [INFO] Load dataset cache from [G:\dataset\coco128\labels\train2017.cache.npy] success.
+2025-03-28 16:34:50,131 [INFO] Dataloader num parallel workers: [4]
+2025-03-28 16:34:50,136 [INFO] Start evaluating...

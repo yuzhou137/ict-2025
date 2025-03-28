@@ -1,0 +1,27 @@
+2025-03-17 19:51:04,367 [INFO] 
+2025-03-17 19:51:04,376 [INFO] Please check the above information for the configurations
+2025-03-17 19:51:04,473 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:51:04,487 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:51:04,581 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-17 19:51:04,732 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:51:04,752 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:51:04,844 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.0.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.0.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.1.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.1.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.2.2.weight` with shape `(80, 128, 1, 1)`, which is inconsistent with cell shape `(10, 128, 1, 1)`
+2025-03-17 19:51:04,976 [WARNING] Dropping checkpoint parameter `model.model.22.cv3.2.2.bias` with shape `(80,)`, which is inconsistent with cell shape `(10,)`
+2025-03-17 19:51:04,986 [INFO] Pretrain model load from "yolov8s.ckpt" success.
+2025-03-17 19:51:05,289 [INFO] ema_weight not exist, default pretrain weight is currently used.
+2025-03-17 19:51:05,980 [INFO] No dataset cache available, caching now...
+2025-03-17 19:51:19,195 [INFO] New cache created: \Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-train\labels.cache.npy
+2025-03-17 19:51:19,195 [INFO] Dataset caching success.
+2025-03-17 19:51:19,245 [INFO] Dataloader num parallel workers: [4]
+2025-03-17 19:51:20,126 [INFO] Dataset Cache file hash/version check success.
+2025-03-17 19:51:20,126 [INFO] Load dataset cache from [\Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-train\labels.cache.npy] success.
+2025-03-17 19:51:20,187 [INFO] Dataloader num parallel workers: [4]
+2025-03-17 19:51:20,431 [INFO] 
+2025-03-17 19:51:20,451 [INFO] got 1 active callback as follows:
+2025-03-17 19:51:20,451 [INFO] SummaryCallback()
+2025-03-17 19:51:20,451 [WARNING] The first epoch will be compiled for the graph, which may take a long time; You can come back later :).

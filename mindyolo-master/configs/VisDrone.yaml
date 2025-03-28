@@ -1,0 +1,57 @@
+per_batch_size: 4
+img_size: 64
+weight :   C:\Users\22454\Desktop\project\deep_learning\mindyolo-master\mindyolo-master\yolov8s.ckpt
+strict_load: False
+conf_thres: 0.6
+iou_thres : 0.5
+
+optimizer:
+  lr_init: 0.001
+
+
+data:
+  dataset_name: VisDrone
+
+  train_set: /Users/22454/Desktop/project/Yolo//ultralytics-main/datasets/VisDrone/VisDrone2019-DET-train/images   # 118287 images
+  val_set: /Users/22454/Desktop/project/Yolo//ultralytics-main/datasets/VisDrone/VisDrone2019-DET-val/images # 5000 images
+  test_set: /Users/22454/Desktop/project/Yolo//ultralytics-main/datasets/VisDrone/VisDrone2019-DET-test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+  nc: 10
+
+  # class names
+  names: [ 'pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
+#  train_transforms: []
+  train_transforms: {
+    stage_epochs: [ 190, 10 ],
+    trans_list: [
+      [
+        { func_name: mosaic, prob: 1.0 },
+        { func_name: resample_segments },
+        { func_name: random_perspective, prob: 1.0, degrees: 0.0, translate: 0.1, scale: 0.5, shear: 0.0 },
+        { func_name: albumentations },
+        { func_name: hsv_augment, prob: 1.0, hgain: 0.015, sgain: 0.7, vgain: 0.4 },
+        { func_name: fliplr, prob: 0.5 },
+        { func_name: label_norm, xyxy2xywh_: True },
+        { func_name: label_pad, padding_size: 160, padding_value: -1 },
+        { func_name: image_norm, scale: 255. },
+        { func_name: image_transpose, bgr2rgb: True, hwc2chw: True }
+      ],
+      [
+        { func_name: letterbox, scaleup: True },
+        { func_name: resample_segments },
+        { func_name: random_perspective, prob: 1.0, degrees: 0.0, translate: 0.1, scale: 0.5, shear: 0.0 },
+        { func_name: albumentations },
+        { func_name: hsv_augment, prob: 1.0, hgain: 0.015, sgain: 0.7, vgain: 0.4 },
+        { func_name: fliplr, prob: 0.5 },
+        { func_name: label_norm, xyxy2xywh_: True },
+        { func_name: label_pad, padding_size: 160, padding_value: -1 },
+        { func_name: image_norm, scale: 255. },
+        { func_name: image_transpose, bgr2rgb: True, hwc2chw: True }
+      ] ]
+  }
+
+  test_transforms: [
+    { func_name: letterbox, scaleup: False, only_image: True },
+    { func_name: image_norm, scale: 255. },
+    { func_name: image_transpose, bgr2rgb: True, hwc2chw: True }
+  ]

@@ -1,0 +1,10 @@
+2025-03-17 19:49:30,458 [INFO] 
+2025-03-17 19:49:30,467 [INFO] Please check the above information for the configurations
+2025-03-17 19:49:30,558 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:49:30,579 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:49:30,672 [INFO] number of network params, total: 11.186595M, trainable: 11.166544M
+2025-03-17 19:49:30,897 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:49:30,907 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-17 19:49:31,009 [INFO] number of network params, total: 11.186595M, trainable: 11.166544M
+2025-03-17 19:49:31,162 [INFO] Pretrain model load from "yolov8s.ckpt" success.
+2025-03-17 19:49:31,619 [INFO] ema_weight not exist, default pretrain weight is currently used.

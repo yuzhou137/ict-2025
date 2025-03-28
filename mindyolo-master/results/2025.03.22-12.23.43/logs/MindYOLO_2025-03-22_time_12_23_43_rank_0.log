@@ -1,0 +1,7 @@
+2025-03-22 12:23:43,155 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 12:23:43,168 [WARNING] Parse Model, args: nearest, keep str type
+2025-03-22 12:23:43,259 [INFO] number of network params, total: 11.159505M, trainable: 11.139454M
+2025-03-22 12:23:43,431 [INFO] Dataset Cache file hash/version check success.
+2025-03-22 12:23:43,431 [INFO] Load dataset cache from [\Users\22454\Desktop\project\Yolo\ultralytics-main\datasets\VisDrone\VisDrone2019-DET-val\labels.cache.npy] success.
+2025-03-22 12:23:43,437 [INFO] Dataloader num parallel workers: [4]
+2025-03-22 12:23:43,443 [INFO] Start evaluating...

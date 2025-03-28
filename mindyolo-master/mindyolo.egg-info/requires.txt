@@ -1,0 +1,8 @@
+pybind11>=2.10.4
+numpy>=1.17.0
+PyYAML>=5.3
+tqdm
+opencv-python>=4.7.0.68
+opencv-python-headless>=4.7.0.68
+albumentations>=1.0.3
+pycocotools>=2.0.2
