@@ -187,7 +187,7 @@ def get_all_submodules(model):
 
     return third_level_modules
 
-save_path = "F:/project/deep_learning/mindyolo-master/mindyolo-master/mindspore_yolov8s.ckpt"
+save_path = "mindspore_yolov8s.ckpt"
 args = parse_args(get_parser_infer())
 model = _init_network(args)
 param_dict = ms.load_checkpoint(args.weight)
