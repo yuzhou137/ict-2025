@@ -31,8 +31,16 @@ About Performance Testing
   
   ```
 ## Some notice about testing
-  When I wrote this code,there is a error that I can't avoid.So if you want to use it ,you have to change the line 225 to the path where your dataset laid.
-
+  When I wrote this code,there is a error that I can't avoid.So if you want to use it ,you have to change the line 225 to the path where your dataset laid.<br>
+  And your dataset structure must be like
+  ```
+  dataset
+  --val
+  ----images
+  ----labels
+  ```
+  And if your images is png file,you also need to change the line 260,change the jpg to png.<br>
+  
 
 
 
