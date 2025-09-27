@@ -45,5 +45,7 @@ About Performance Testing
 
 
 `That's all,thanks for supporting`
+
+  well, after some attempts,I found that the purned model have channels mismatch problems.Well,I did some work to correct it,but when I tried it ,the effort of model is really bad,I guess it must be the model need fintune,but I`ve already finish my work .Unless it`s needed,I won`t update my code and complete the whole processing of prune model
   
 
